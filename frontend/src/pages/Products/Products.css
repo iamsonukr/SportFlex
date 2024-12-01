@@ -1,0 +1,14 @@
+.products-page{
+    display: flex;
+}
+
+.sidebar{
+    flex: 1;
+    max-width: 300px;
+    background-color: red;
+}
+
+.products-section{
+    flex: 3;
+    background-color: gray;
+}

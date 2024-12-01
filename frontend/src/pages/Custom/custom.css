@@ -1,0 +1,320 @@
+.formOptions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 100px; 
+}
+.display{
+    margin-top:10px ;
+    margin-left: -90px;
+    display: block;
+    position: initial;
+    border: 2px solid gray;
+}
+/* .productDetails{
+  width: 200px;
+  background-color: #fff;
+  color: #4d4d4d;
+} */
+.display img{
+    width: 600px;
+}
+.formItems{
+    width: 670px;
+    height: 970px;
+    margin-left: 10px;
+    overflow: auto;
+}
+
+/* scrollbar settings */
+.formItems::-webkit-scrollbar {
+  width: 0; 
+  height: 0; 
+}
+
+.optionImg{
+    width: 120px;
+}
+
+/* form Head Title */
+.FormHeadTitle{
+  background-color: #000046;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Size */
+
+.lanWidth{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.landW1{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.lendW1>p>span{
+  display: block;
+}
+
+.SUnit{
+  display: block !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+}
+
+
+.lanLenght{
+    display: flex;
+    justify-content: space-between;
+}
+
+.landL1{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+/* color */
+.custom-message {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .message-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .msg, .select-font {
+    flex: 1 1 45%;
+    margin-bottom: 10px;
+  }
+  
+  .msg p, .select-font p {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .msgBox {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  select:focus, .msgBox:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .message-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .color {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .color1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 5px;
+    flex: 1 1 30%;
+    text-align: center;
+  }
+  
+  .color1 > input {
+    padding: 2px 5px;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .gold, .black, .brown, .pink {
+    padding: 25px;
+    border-radius: 50%;
+    margin: 5px 0;
+  }
+  
+  .gold {
+    background-color: gold;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+  .brown {
+    background-color: brown;
+  }
+  
+  .pink {
+    background-color: pink;
+  }
+  
+  .select-font > select {
+    padding: 10px 20px;
+  }
+
+  /* ------------------------Names ----------------------- */
+  /* .name1{
+    position: absolute;
+    margin-top: -524px;
+    margin-left: 260px;
+    color: white;
+    text-align: center;
+    
+  }
+  .name2{
+    position: absolute;
+    margin-top: -324px;
+    margin-left: 240px;
+    color: white;
+    rotate: -110deg;
+    text-align: center;
+    
+  }
+  .name3{
+    position: absolute;
+    margin-top: -324px;
+    margin-left: 330px;
+    color: white;
+    rotate: 290deg;
+    text-align: center;
+
+  }
+   */
+
+  
+   .name1 {
+    position: absolute;
+    top: 208px;
+    left: 23.1%;
+    width: 201px;
+    margin-left: -100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+  
+  .name2 {
+    position: absolute;
+    top: 414px;
+    left: 19.7%;
+    width: 200px;
+    margin-left: -100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transform: rotate(-110deg);
+  }
+  
+  .name3 {
+    position: absolute;
+    top: 402px;
+    left: 25.5%;
+    width: 200px;
+    margin-left: -100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transform: rotate(290deg);
+  }
+
+  .imgBoxItems{
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+  }
+.selectBand{
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgBoxItems:hover{
+  background-color: #000046;
+  color: white;
+  border-radius:5PX;
+}
+.imgBoxItems:active{
+  background-color: #303008;
+}
+.imgBoxItems {
+  background: none;
+  background-color: transparent;
+}
+
+/* info Box */
+.infoBox {
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  padding: 10px; 
+  max-width: 200px; 
+  font-family: Arial, sans-serif; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.infoBox p {
+  margin: 2px 0; /* Space between paragraphs */
+  color: #333; /* Dark grey text color */
+}
+
+
+
+
+.infoBox p:nth-child(3)::before {
+
+  margin-right: 8px; /* Space between icon and text */
+}
+.infoBox p:nth-child(4)::before {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+/* notebox */
+.noteBox{
+  width: 700px;
+  height: 100px;
+  padding: 10px;
+}
+
+.resetBtn{
+  padding: 10px 20px;
+  border-radius: 10px;
+}
