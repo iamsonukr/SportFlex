@@ -3,7 +3,7 @@ import { StoreContext } from '../../context/StoreContext';
 import './PlaceOrder.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import logo from '../../assets/logo.png'; // Proper import for the logo
+import logo from '../../assets/sport-logo.png'; // Proper import for the logo
 
 const PlaceOrder = () => {
   const { getTotalCartAmount, token, food_list, cartItems, url } = useContext(StoreContext);  
