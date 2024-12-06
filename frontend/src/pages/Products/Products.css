@@ -5,10 +5,10 @@
 .sidebar{
     flex: 1;
     max-width: 300px;
-    background-color: red;
+    background-color: rgb(168, 168, 168);
 }
 
 .products-section{
-    flex: 3;
+    flex: 32;
     background-color: gray;
 }
