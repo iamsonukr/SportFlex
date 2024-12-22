@@ -47,7 +47,7 @@ const getTotalCartAmount = () => {
     let totalAmount = 0;
     console.log("Inside the context");
     console.log("Cart Items:", cartItems);
-    console.log("Food List:", food_list);
+    console.log("Cart List:", food_list);
 
     for (const item in cartItems) {
         if (cartItems[item] > 0) {
@@ -72,7 +72,7 @@ const getTotalCartAmount = () => {
 };
 
     // fetch the fooditem from database and store it in the variabale 
-    const fetchFoodlist=async(req,res)=>{
+    const fetchStoreItems=async(req,res)=>{
         const response=await axios.get(`${url}/api/food/listfood`)
         console.log(response.data.data)
         console.log(food_list)
@@ -97,7 +97,7 @@ const getTotalCartAmount = () => {
                     await loadCartData(localStorage.getItem("token"))
                 }
         }
-        loadData()
+        // loadData()
     },[])
 
     const getCartItemsLength = () => {
@@ -122,7 +122,7 @@ const getTotalCartAmount = () => {
     //\
     useEffect(()=>{
         // fetchFoodlist()
-        setFoodList(foodList)
+        // setFoodList(foodList)
         
       },[])
 
