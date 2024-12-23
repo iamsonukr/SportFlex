@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
-import TopChefs from '../../components/TopChefs/TopChefs'
+import TopChefs from '../../components/TopChefs/TopProducts.jsx'
 import Testimonials from '../../components/Testimonials/Testimonial'
 import Slider from '../../components/Slider/Slider'
 import FAQs from '../../components/FAQs/Faq.jsx'

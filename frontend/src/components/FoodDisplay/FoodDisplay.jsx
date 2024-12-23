@@ -1,9 +1,9 @@
 import React, { useContext, useEffect } from 'react'
 import './FoodDisplay.css'
 import { StoreContext } from '../../context/StoreContext'
-import FoodDisplayItem from '../FoodDisplayItem/SportsDisplayItem'
+
 import { foodList } from '../../assets/assets'
-import SportsDisplayItem from '../FoodDisplayItem/SportsDisplayItem'
+import SportsDisplayItem from '../SportsDisplayItem/SportsDisplayItem'
 
 const FoodDisplay = ({ category }) => {
 
@@ -27,6 +27,7 @@ const FoodDisplay = ({ category }) => {
                             <SportsDisplayItem key={index} id={item._id} name={item.name} price={item.price} image={item.image} />
                         )
                     })
+                   
                 }
             </div>
         </div>
